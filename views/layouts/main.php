@@ -19,7 +19,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title>ProgramContest</title>
     <?php $this->head() ?>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -65,7 +65,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                             [
                                 "items" => [
                                     ["label" => "Home", "url" => "/", "icon" => "home"],
-                                    ["label" => "Layout", "url" => ["site/layout"], "icon" => "files-o"],
+                                    ["label" => "Contact", "url" => ["site/contact"], "icon" => "files-o"],
                                     ["label" => "Error page", "url" => ["site/error-page"], "icon" => "close"],
                                     [
                                         "label" => "Widgets",
@@ -197,7 +197,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                                         <img src="http://placehold.it/128x128" alt="Profile Image" />
                                     </span>
                       <span>
-                                        <span>John Smith</span>
+                                        <span>Alexis Duarte</span>
                       <span class="time">3 mins ago</span>
                       </span>
                       <span class="message">
@@ -211,7 +211,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                                         <img src="http://placehold.it/128x128" alt="Profile Image" />
                                     </span>
                       <span>
-                                        <span>John Smith</span>
+                                        <span>Alexis Duarte</span>
                       <span class="time">3 mins ago</span>
                       </span>
                       <span class="message">
@@ -225,7 +225,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                                         <img src="http://placehold.it/128x128" alt="Profile Image" />
                                     </span>
                       <span>
-                                        <span>John Smith</span>
+                                        <span>Alexis Duarte</span>
                       <span class="time">3 mins ago</span>
                       </span>
                       <span class="message">
@@ -239,7 +239,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                                         <img src="http://placehold.it/128x128" alt="Profile Image" />
                                     </span>
                       <span>
-                                        <span>John Smith</span>
+                                        <span>Alexis Duarte</span>
                       <span class="time">3 mins ago</span>
                       </span>
                       <span class="message">
