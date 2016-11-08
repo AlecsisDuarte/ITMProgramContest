@@ -19,7 +19,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <?= Html::csrfMetaTags() ?>
-    <title>ProgramContest</title>
+    <title>ProgramingContest</title>
     <?php $this->head() ?>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -250,7 +250,7 @@ $bundle = yiister\gentelella\assets\Asset::register($this);
                                 <li>
                                     <div class="text-center">
                                         <a href="/">
-                                            <strong>See All Alerts</strong>
+                                            <strong>Ver Alertas</strong>
                                             <i class="fa fa-angle-right"></i>
                                         </a>
                                     </div>
